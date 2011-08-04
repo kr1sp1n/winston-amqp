@@ -1,0 +1,22 @@
+{
+  "name": "winston-amqp",
+  "description": "An AMQP transport for winston",
+  "version": "0.0.1",
+  "author": "Krispin Schulz <krispinone@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/kr1sp1n/winston-amqp.git" 
+  },
+  "keywords": ["logging", "sysadmin", "tools", "winston", "amqp"],
+  "dependencies": {
+    "amqp": "0.1.x"
+  },
+  "devDependencies": {
+    "vows": "0.5.x",
+    "winston": "0.3.x",
+    "colors": "0.5.x"
+  },
+  "main": "./lib/winston-amqp",
+  "scripts": { "test": "vows --spec" },
+  "engines": { "node": ">= 0.4.0" }
+}

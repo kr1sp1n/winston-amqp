@@ -1,0 +1,8 @@
+{
+	"transports" : {
+		"amqp" : {
+			"exchange" : "logging",
+			"keepAlive" : 1000
+		}
+	}
+}
