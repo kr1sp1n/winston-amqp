@@ -14,7 +14,7 @@ winston.cli();
 
 // No options are required. Check out the lib code to see the defaults
 // Be careful with overwriting the default exchange name 
-// because this implies also changing the exchange name for every subcriber
+// because this implies also changing the exchange name for every subscriber
 var options = {
 	'host': 'localhost' // default
 };
@@ -24,3 +24,8 @@ winston.add(AMQP, options);
 winston.log('info', 'Hello AMQP log events!');
 winston.log('warn', 'This is a warning!');
 winston.log('error', 'ERROR! MUST DESTROY ALL HUMANS', { code: '505', anything: 'This is metadata'});
+
+for(var i=0; i<5; i++) {
+	winston.log('help', 'Badabumbadabum');
+}
+

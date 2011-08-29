@@ -1,7 +1,7 @@
 {
 	"transports" : {
 		"amqp" : {
-			"exchange" : "logging",
+			"exchange" : "winston.test.log",
 			"keepAlive" : 1000
 		}
 	}
