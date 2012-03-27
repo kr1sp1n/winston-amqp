@@ -10,7 +10,7 @@
   "keywords": ["logging", "sysadmin", "tools", "winston", "amqp", "rabbitmq"],
   "dependencies": {
     "amqp": "0.1.x",
-    "winston": "0.4.x"
+    "winston": "0.5.x"
   },
   "devDependencies": {
     "vows": "0.5.x",

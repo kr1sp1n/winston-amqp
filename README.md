@@ -4,6 +4,8 @@ An AMQP transport for [winston][0].
 Use [winston][0] logging with RabbitMQ to react on log messages.
 Inspired by [winston-mongodb][1].
 
+[![Build Status](https://secure.travis-ci.org/kr1sp1n/winston-amqp.png)](http://travis-ci.org/kr1sp1n/winston-amqp)
+
 ## Installation
 
 ### Installing npm (node package manager)
