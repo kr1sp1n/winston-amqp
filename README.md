@@ -37,7 +37,7 @@ The AMQP transport takes the following options:
 
 *Metadata:* Logged as part of the message body with key 'meta' (see examples/subscribe.js).
 
-#### Author: [Krispin Schulz](http://kr1sp1n.com)
+#### Author: [Krispin Schulz](http://kr1sp1n.tumblr.com/)
 
 [0]: https://github.com/indexzero/winston
 [1]: https://github.com/indexzero/winston-mongodb
