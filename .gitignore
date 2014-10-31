@@ -2,3 +2,5 @@ node_modules
 npm-debug.log
 *.stderr
 *.stdout
+atlassian-ide-plugin.xml
+.idea

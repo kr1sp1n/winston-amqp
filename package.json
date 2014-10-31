@@ -5,11 +5,19 @@
   "author": "Krispin Schulz <krispinone@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "http://github.com/kr1sp1n/winston-amqp.git" 
+    "url": "http://github.com/kr1sp1n/winston-amqp.git"
   },
-  "keywords": ["logging", "sysadmin", "tools", "winston", "amqp", "rabbitmq"],
+  "keywords": [
+    "logging",
+    "sysadmin",
+    "tools",
+    "winston",
+    "amqp",
+    "rabbitmq"
+  ],
   "dependencies": {
     "amqp": "0.1.x",
+    "lodash": "^2.4.1",
     "winston": "0.5.x"
   },
   "devDependencies": {
@@ -17,6 +25,10 @@
     "colors": "0.5.x"
   },
   "main": "./lib/winston-amqp",
-  "scripts": { "test": "vows --spec" },
-  "engines": { "node": ">= 0.4.0" }
+  "scripts": {
+    "test": "vows --spec"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
 }
