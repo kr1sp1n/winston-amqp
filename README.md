@@ -34,6 +34,7 @@ The AMQP transport takes the following options:
 * __vhost:__ virtual host entry for the RabbitMQ server, defaults to '/'
 * __login:__ login for the RabbitMQ server, defaults to 'guest'
 * __password:__ password for the RabbitMQ server, defaults to 'guest'
+* __connection:__ optionally you may provide an existing AMQP connection instead of the credentials.
 
 *Metadata:* Logged as part of the message body with key 'meta' (see examples/subscribe.js).
 
