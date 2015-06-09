@@ -5,12 +5,12 @@
   "author": "Krispin Schulz <krispinone@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "http://github.com/kr1sp1n/winston-amqp.git" 
+    "url": "http://github.com/kr1sp1n/winston-amqp.git"
   },
   "keywords": ["logging", "sysadmin", "tools", "winston", "amqp", "rabbitmq"],
   "dependencies": {
     "amqp": "0.1.x",
-    "winston": "0.5.x"
+    "winston": "~1.0.0"
   },
   "devDependencies": {
     "vows": "0.5.x",
