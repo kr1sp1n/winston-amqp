@@ -26,7 +26,7 @@ Inspired by [winston-mongodb][1].
 
 The AMQP transport takes the following options:
 
-* __level:__ Level of messages that this transport should log. 
+* __level:__ Level of messages that this transport should log.
 * __silent:__ Boolean flag indicating whether to suppress output.
 * __exchange__: The name of the exchange you want to push log messages in, defaults to 'winston.log'.
 * __host:__ The host running RabbitMQ, defaults to localhost.
@@ -34,6 +34,8 @@ The AMQP transport takes the following options:
 * __vhost:__ virtual host entry for the RabbitMQ server, defaults to '/'
 * __login:__ login for the RabbitMQ server, defaults to 'guest'
 * __password:__ password for the RabbitMQ server, defaults to 'guest'
+* __authMechanism:__ authMechanism to use with RabbitMQ server, defaults to 'AMQPLAIN'
+* __ssl:__ ssl connect via SSL to RabbitMQ server, defaults to '{ enabled : false }'. For options check: https://github.com/postwait/node-amqp
 
 *Metadata:* Logged as part of the message body with key 'meta' (see examples/subscribe.js).
 
