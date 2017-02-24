@@ -28,7 +28,7 @@ The AMQP transport takes the following options:
 
 * __level:__ Level of messages that this transport should log. 
 * __silent:__ Boolean flag indicating whether to suppress output.
-* __exchange__: The name of the exchange you want to push log messages in, defaults to 'winston.log'.
+* __exchange__: String or Object `{"name": "", "property": {}}` (see [amqp exchange option for property](https://www.npmjs.com/package/amqp#connectionexchangename-options-opencallback)). The exchange you want to push log messages in, defaults to the name of exchange 'winston.log'.
 * __host:__ The host running RabbitMQ, defaults to localhost.
 * __port:__ The port on the host that RabbitMQ is running on, defaults to 5672.
 * __vhost:__ virtual host entry for the RabbitMQ server, defaults to '/'
